@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color:green;
+    background-color:rgb(5, 99, 5);
+}
+
+.hero{
+    background-color:rgba(255, 0, 0, 0.374);
+    color:green;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    border-bottom: 6px solid var(--blue);
+}
+
+.navbar{
+    background-color: lightseagreen;
+padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar a {
+color: rgba(255, 0, 0, 0.486);
+text-decoration: none;
+padding: 0.5rem 1rem; 
+border-radius: 4px;
+transition: background-color 0.9s;
+}
+
+.navbar a:hover{
+    background-color:#2c3e50;
+}
+
+.container{
+    display: flex;
+    max-width:1200px;
+    margin: 2rem auto;
+    background-color:white;
+    border-radius: 8rx;
+    box-shadow: 0 2px 10px rgba (0,0,0,0.1);
+    overflow: hidden;
+}
+
+.sidebar{
+    background-color: lightseagreen;
+    padding: 2rem;
+    width: 300px;
+    min-height: 400px;
+}
+
+.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1.5rem auto;
+    border: 3px solid green;
+}
+
+
+.sidebar h2{
+    color:black;
+    margin-bottom: 1rem;
+    font-size:1.5;
+}
+.main-content{
+    flex:1;
+    padding: 2rem
+}
+
+
+.main-content h2{
+    color:black;
+    margin: bottom 1.8rem;
+    border-bottom: 2px solid brown;/*#3498db*/
+    paddoing-bottom: 0.5rem;
+}
